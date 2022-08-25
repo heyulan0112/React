@@ -2,7 +2,7 @@ import React from "react";
 
 function Header(){
     return <header>
-    <h1>Noter</h1>
+    <a href="https://heyulan0112.github.io/Yulan-Website/">Noter</a>
     </header>;
 }
 

@@ -9,19 +9,30 @@ html {
 body {
   background: #eee;
   padding: 0 16px;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
 }
 
 header {
-  background-color: #4D4C7D;
+  background-color: #002B5B;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-header h1 {
+header a {
   color: #fff;
-  font-family: "McLaren", cursive;
+  font-size: 25px;
+  font-family: 'Berkshire Swash', cursive;
   font-weight: 200;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+header a:hover{
+  color: #FFE3A9;
+  opacity: 1;
+  font-size: 26px;
+  text-shadow: 5px 5px 15px white;
 }
 
 footer {
@@ -59,12 +70,16 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #827397;
   border: none;
   width: 36px;
   height: 36px;
   cursor: pointer;
   outline: none;
+  transition: 0.3s;
+}
+
+.note button:hover {
+  background-color: #C2DED1;
 }
 
 form {
@@ -87,6 +102,7 @@ form textarea {
   resize: none;
 }
 form button {
+  font-weight: bolder;
   position: absolute;
   right: 18px;
   bottom: -18px;
@@ -99,4 +115,12 @@ form button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #D6D5A8;
+  width: 38px;
+  height: 38px;
+  /* box-shadow: 5px 5px 5px #b9df87; */
 }

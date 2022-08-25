@@ -26,16 +26,20 @@ function CreateArea(props) {
 
     return (
         <div>
-        <form>
+        <form className="create-note">
             <input 
             onChange={hancleChange} 
-            value={inputText.title} name="title" 
-            placeholder="Title" />
+            value={inputText.title} 
+            name="title" 
+            placeholder="Title"
+            />
             <textarea 
             onChange={hancleChange} 
-            value={inputText.content} name="content" 
+            value={inputText.content} 
+            name="content" 
             placeholder="Take a note..." 
-            rows="3" />
+            rows="3"
+            />
             <button onClick={handleAdd}>Add</button>
         </form>
         </div>
