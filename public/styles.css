@@ -19,16 +19,16 @@ header {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-header a {
+header p {
   color: #fff;
   font-size: 25px;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Marcellus SC', serif;
   font-weight: 200;
   text-decoration: none;
   transition: 0.5s;
 }
 
-header a:hover{
+header p:hover{
   color: #FFE3A9;
   opacity: 1;
   font-size: 26px;
